@@ -1116,7 +1116,7 @@ spki = { version = "0.6", default-features = false, features = ["alloc", "base64
 sqlformat = { version = "0.1", default-features = false }
 sqlx = { version = "0.5", features = ["_rt-tokio", "macros", "migrate", "runtime-tokio-rustls", "sqlite", "sqlx-macros"] }
 sqlx-core = { version = "0.5", default-features = false, features = ["_rt-tokio", "_tls-rustls", "crc", "flume", "futures-executor", "libsqlite3-sys", "migrate", "runtime-tokio-rustls", "rustls", "sha2", "sqlite", "tokio-stream", "webpki", "webpki-roots"] }
-sqlx-macros = { version = "0.5", default-features = false, features = ["_rt-tokio", "migrate", "runtime-tokio-rustls", "sha2", "sqlite"] }
+sqlx-macros = { version = "0.6", default-features = false, features = ["_rt-tokio", "migrate", "runtime-tokio-rustls", "sha2", "sqlite"] }
 sqlx-rt = { version = "0.5", default-features = false, features = ["_rt-tokio", "_tls-rustls", "once_cell", "runtime-tokio-rustls", "tokio", "tokio-rustls"] }
 stable_deref_trait = { version = "1", features = ["alloc", "std"] }
 static_assertions = { version = "1", default-features = false }
